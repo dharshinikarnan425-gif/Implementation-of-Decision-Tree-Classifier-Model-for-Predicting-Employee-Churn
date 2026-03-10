@@ -65,7 +65,7 @@ print("\nClassification Report:\n", classification_report(y_test, y_pred))
 
 # Step 8: Plot the Decision Tree
 plt.figure(figsize=(16, 10))
-plot_tree(
+plot_tree(5
     model,
     feature_names=["Age", "Salary", "YearsAtCompany", "JobSatisfaction"],
     class_names=["No", "Yes"],
